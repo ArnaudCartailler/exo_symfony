@@ -7,10 +7,10 @@ use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Symfony\Bridge\Doctrine\RegistryInterface;
 
 /**
- * @method Propery|null find($id, $lockMode = null, $lockVersion = null)
- * @method Propery|null findOneBy(array $criteria, array $orderBy = null)
- * @method Propery[]    findAll()
- * @method Propery[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
+ * @method Property|null find($id, $lockMode = null, $lockVersion = null)
+ * @method Property|null findOneBy(array $criteria, array $orderBy = null)
+ * @method Property[]    findAll()
+ * @method Property[]    findBy(array $criteria, array $orderBy = null, $limit = null, $offset = null)
  */
 class PropertyRepository extends ServiceEntityRepository
 {
@@ -20,7 +20,7 @@ class PropertyRepository extends ServiceEntityRepository
     }
 
     // /**
-    //  * @return Propery[] Returns an array of Propery objects
+    //  * @return Property[] Returns an array of Property objects
     //  */
     /*
     public function findByExampleField($value)
@@ -37,7 +37,7 @@ class PropertyRepository extends ServiceEntityRepository
     */
 
     /*
-    public function findOneBySomeField($value): ?Propery
+    public function findOneBySomeField($value): ?Property
     {
         return $this->createQueryBuilder('p')
             ->andWhere('p.exampleField = :val')
